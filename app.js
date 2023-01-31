@@ -31,7 +31,7 @@ app.post('/',(req,res)=>{
 
     // to authorize right user while posting data using https module
     const options={
-        auth:'ashish:8a0146c24ecfdbaf3db1a8bde7e231d6-us1',
+        auth:'ashish:8a0146c24ecfdbaf3db1a8bde7e231d6-us18',
         method:'POST'
     }
     const url="https://us18.api.mailchimp.com/3.0/lists/4a03cb61b8";
